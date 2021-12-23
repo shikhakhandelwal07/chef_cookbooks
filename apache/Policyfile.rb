@@ -14,14 +14,3 @@ run_list 'apache::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'apache', path: '.'
-
-name 'coupa_app-5.8.0'
-
-default_source :supermarket
-
-run_list "apache::default"
-
-
-
-
-
